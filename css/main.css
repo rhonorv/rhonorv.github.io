@@ -6,12 +6,12 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    list-style-type: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    list-style: none;
 }
 a {
     text-decoration: none;
@@ -37,8 +37,12 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    list-style-type: none;
 }
 
 ul.posts li {
     list-style: none;
+
+}
+
 }
